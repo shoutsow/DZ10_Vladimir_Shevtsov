@@ -168,11 +168,11 @@ for (let i = 0; i < arr9.length; i++) {
         first0 = i;
         break;
     }
-}
-for (let i = arr9.length; i > 0; i--) {
-    if (arr9[i] == 0) {
-        last0 = i;
-        break;
+    for (let i = arr9.length; i > 0; i--) {
+        if (arr9[i] == 0) {
+            last0 = i;
+            break;
+        }
     }
 }
 for (let i = first0 + 1; i <= last0 - 1; i++) {
